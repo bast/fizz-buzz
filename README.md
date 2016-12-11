@@ -67,3 +67,5 @@ $ ./bin/unit_tests
   tests you need to link against [Google Test](https://github.com/google/googletest).
 - Define a version number inside CMake and print it to the output of the executable.
 - Print the Git hash to the output of the executable.
+- Write an install target.
+- Write a DEB/RPM packager.

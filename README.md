@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/license-%20BSD--3-blue.svg)](../master/LICENSE)
+[![License](https://img.shields.io/badge/license-%20poetic-blue.svg)](../master/LICENSE.md)
 
 
 # fizz-buzz

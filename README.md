@@ -63,9 +63,9 @@ $ ./bin/unit_tests
 
 ## Tasks
 
-- Build the code using CMake. First only the sources, later also tests. For the
-  tests you need to link against [Google Test](https://github.com/google/googletest).
+- Build a shared library.
+- Build and link the main program.
+- Build the unit tests and link against [Google Test](https://github.com/google/googletest).
 - Define a version number inside CMake and print it to the output of the executable.
 - Print the Git hash to the output of the executable.
-- Write an install target.
-- Write a DEB/RPM packager.
+- Create an installer so the program can be installed properly (GNU standards).

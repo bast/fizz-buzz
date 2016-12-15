@@ -39,25 +39,17 @@ N=10 the sum is 3+5+6+9+10 = 33.
 The source code and unit tests are there:
 
 ```shell
-$ ./bin/fb.x
-
-Fizz-buzz sum for integer 10 is 33
-Fizz-buzz sum for integer 100 is 2418
-
-$ ./bin/unit_tests
-
-[==========] Running 2 tests from 1 test case.
-[----------] Global test environment set-up.
-[----------] 2 tests from fizz_buzz
-[ RUN      ] fizz_buzz.sum_small_number
-[       OK ] fizz_buzz.sum_small_number (0 ms)
-[ RUN      ] fizz_buzz.sum_larger_number
-[       OK ] fizz_buzz.sum_larger_number (0 ms)
-[----------] 2 tests from fizz_buzz (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 2 tests from 1 test case ran. (0 ms total)
-[  PASSED  ] 2 tests.
+.
+|-- LICENSE.md
+|-- README.md
+|-- src
+|   |-- divisible.f90
+|   |-- fizz_buzz.f90
+|   |-- fizz_buzz.h
+|   `-- main.cpp
+`-- test
+    |-- fizz_buzz.cpp
+    `-- main.cpp
 ```
 
 

@@ -69,3 +69,4 @@ $ ./bin/unit_tests
 - Define a version number inside CMake and print it to the output of the executable.
 - Print the Git hash to the output of the executable.
 - Create an installer so the program can be installed properly (GNU standards).
+- Create a DEB or RPM package (if relevant for your distribution).

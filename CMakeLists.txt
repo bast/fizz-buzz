@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 
 project(fizz-buzz)
 
-enable_language(C)
 enable_language(CXX)
 enable_language(Fortran)
 

@@ -35,5 +35,5 @@ if(ENABLE_UNIT_TESTS)
     include(CTest)
     enable_testing()
 
-    add_test(unit ${PROJECT_BINARY_DIR}/unit_tests)
+    add_test(unit ${PROJECT_BINARY_DIR}/bin/unit_tests)
 endif()

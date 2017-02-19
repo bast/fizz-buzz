@@ -1,7 +1,10 @@
+# stop if CMake version is below 2.8
 cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 
+# project name
 project(fizz-buzz)
 
+# this is a Fortran and C++ project
 enable_language(CXX)
 enable_language(Fortran)
 
@@ -22,6 +25,7 @@ set(CMAKE_MODULE_PATH
 include(version)
 include(arch)
 
+# process src/CMakeLists.txt
 add_subdirectory(src)
 
 include(tests)
